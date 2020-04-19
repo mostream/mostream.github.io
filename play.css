@@ -1,0 +1,59 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+}
+
+body {
+      background-color: rgb(17, 17, 17);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.pop {
+      color: rgb(190, 190, 190);
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+}
+
+button {
+      width: auto;
+      height: auto;
+      padding: 10px 30px;
+      background-color: rgb(35, 62, 198);
+      outline: none;
+      border: none;
+      margin-top: 20px;
+      color: white;
+      font-family: sans-serif;
+      border-radius: 5px;
+}
+
+#paste {
+      display: flex;
+      justify-content: center;
+}
+
+video {
+      width: 95%;
+      -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+            0 6px 6px rgba(0, 0, 0, .23);
+      -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+            0 6px 6px rgba(0, 0, 0, .23);
+      -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+            0 6px 6px rgba(0, 0, 0, .23);
+      -o-box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+            0 6px 6px rgba(0, 0, 0, .23);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+            0 6px 6px rgba(0, 0, 0, .23);
+      outline: none;
+}
